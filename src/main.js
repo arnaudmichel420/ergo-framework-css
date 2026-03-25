@@ -128,7 +128,7 @@ function adaptePlanet(planet, width) {
   if (width > 1280) planet.scale.setScalar(0.003);
   else if (width >= 1024) planet.scale.setScalar(0.003);
   else if (width >= 768) planet.scale.setScalar(0.0027);
-  else planet.scale.setScalar(0.0025);
+  else planet.scale.setScalar(0.0027);
 }
 
 /**
