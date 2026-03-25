@@ -58,18 +58,31 @@
 
   .fact-list {
     @apply uppercase text-2xl relative pl-12
-    before:content-[''] before:absolute before:top-0 before:left-0  before:w-7 before:h-7 before:border-2 before:border-primary before:rounded-full after:content-[''] after:absolute after:top-2.5 after:left-2.5  after:w-2 after:h-2 after:bg-primary after:rounded-full;
+    before:content-[''] before:absolute before:top-0 before:left-0  before:w-7 before:h-7 before:border-[1.5px] before:border-primary before:rounded-full after:content-[''] after:absolute after:top-2.5 after:left-2.5  after:w-2 after:h-2 after:bg-primary after:rounded-full;
   }
 
   .title-1 {
   }
   .title-2 {
-    @apply uppercase text-3xl font-bold
+    @apply uppercase text-3xl font-bold;
   }
   .title-3 {
+    @apply uppercase text-xl font-bold;
   }
   .text-regular {
   }
   .text-light {
+  }
+  .link {
+    @apply mt-6 relative w-fit uppercase font-light after:content-[''] after:absolute after:bg-text after:w-0 after:h-px after:-bottom-1 after:left-1/2 after:-translate-x-1/2 hover:after:w-full after:transition-all cursor-pointer;
+  }
+  .btn-primary {
+    @apply px-4 py-3 w-fit rounded-md font-bold uppercase bg-primary border border-primary hover:bg-transparent hover:border-primary transition-colors cursor-pointer;
+  }
+  .footer-text {
+    @apply text-xl font-light uppercase;
+  }
+  .icon-link {
+    @apply text-2xl transition-transform hover:scale-110;
   }
 }

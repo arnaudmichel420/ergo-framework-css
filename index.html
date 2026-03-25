@@ -55,50 +55,52 @@
           </ul>
         </div>
         <div class="flex flex-col items-center">
-          <a href="#" class="uppercase font-light text-base">discover more</a>
+          <a href="#" class="link m-0">discover more</a>
           <i class="ph-thin ph-caret-down text-5xl text-primary"></i>
         </div>
       </section>
-      <section>
+      <section class="container mx-auto gap-12">
         <h2 class="title-2">our fleet</h2>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <h3>Rocket name</h3>
+        <div class="flex gap-16">
+          <div class="flex flex-col gap-2 w-1/3">
+            <img src="" alt="" class="bg-text aspect-[calc(300/380)] w-full" />
+            <h3 class="title-3 mt-4">Rocket name</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a
               nulla. Id distinctio quidem alias?
             </p>
-            <a href="">learn more</a>
+            <a href="#" class="link">learn more</a>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>Rocket name</h3>
+          <div class="flex flex-col gap-2 w-1/3">
+            <img src="" alt="" class="bg-text aspect-[calc(300/380)] w-full" />
+            <h3 class="title-3 mt-4">Rocket name</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a
               nulla. Id distinctio quidem alias?
             </p>
-            <a href="">learn more</a>
+            <a href="#" class="link">learn more</a>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>Rocket name</h3>
+          <div class="flex flex-col gap-2 w-1/3">
+            <img src="" alt="" class="bg-text aspect-[calc(300/380)] w-full" />
+            <h3 class="title-3 mt-4">Rocket name</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a
               nulla. Id distinctio quidem alias?
             </p>
-            <a href="">learn more</a>
+            <a href="#" class="link">learn more</a>
           </div>
         </div>
       </section>
-      <section>
-        <h2>the team</h2>
-        <div>
-          <div><img src="" alt="" /></div>
-          <div>
-            <h3>Pilot name</h3>
-            <span>Pilot function</span>
-            <p>
+      <section class="container mx-auto my-36 flex flex-col gap-16">
+        <h2 class="title-2">the team</h2>
+        <div class="flex gap-20">
+          <div class="w-1/3">
+            <img src="" alt="" class="w-full aspect-square bg-text" />
+          </div>
+          <div class="flex flex-col gap-6">
+            <h3 class="text-4xl font-bold uppercase">Pilot name</h3>
+            <span class="text-xl uppercase">Pilot function</span>
+            <p class="w-3/4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
               assumenda dolorem numquam iure sunt blanditiis, saepe
               necessitatibus nemo enim laudantium totam fugit pariatur tenetur
@@ -106,111 +108,136 @@
             </p>
           </div>
         </div>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <h3>Pilot name</h3>
+        <div class="grid grid-cols-5 gap-20">
+          <div class="flex flex-col gap-4">
+            <img src="" alt="" class="bg-white w-full aspect-square" />
+            <h3 class="title-3">Pilot name</h3>
             <span>Pilot function</span>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>Pilot name</h3>
+          <div class="flex flex-col gap-4">
+            <img src="" alt="" class="bg-white w-full aspect-square" />
+            <h3 class="title-3">Pilot name</h3>
             <span>Pilot function</span>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>Pilot name</h3>
+          <div class="flex flex-col gap-4">
+            <img src="" alt="" class="bg-white w-full aspect-square" />
+            <h3 class="title-3">Pilot name</h3>
             <span>Pilot function</span>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>Pilot name</h3>
+          <div class="flex flex-col gap-4">
+            <img src="" alt="" class="bg-white w-full aspect-square" />
+            <h3 class="title-3">Pilot name</h3>
             <span>Pilot function</span>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>Pilot name</h3>
+          <div class="flex flex-col gap-4">
+            <img src="" alt="" class="bg-white w-full aspect-square" />
+            <h3 class="title-3">Pilot name</h3>
             <span>Pilot function</span>
           </div>
         </div>
-        <a href="">meet the team</a>
+        <a href="#" class="btn-primary mx-auto">meet the team</a>
       </section>
-      <section>
-        <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            dolorem, inventore ducimus doloremque harum dolores? Numquam
-            deserunt beatae totam dolore, animi dignissimos quo distinctio
-            voluptatem voluptates fuga, iste debitis voluptate.
-          </p>
-          <ul>
-            <li>Interesting fact 1</li>
-            <li>Interesting fact 1</li>
-            <li>Interesting fact 1</li>
-          </ul>
-          <a href="">Learn more</a>
+      <section class="container mx-auto mb-36 flex flex-col gap-16">
+        <h2 class="title-2">About</h2>
+        <div class="flex gap-20">
+          <div class="flex flex-col gap-8 w-1/2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem, inventore ducimus doloremque harum dolores? Numquam
+              deserunt beatae totam dolore, animi dignissimos quo distinctio
+              voluptatem voluptates fuga, iste debitis voluptate.
+            </p>
+            <ul class="flex flex-col gap-6">
+              <li class="fact-list text-base normal-case">
+                Interesting fact 1
+              </li>
+              <li class="fact-list text-base normal-case">
+                Interesting fact 2
+              </li>
+              <li class="fact-list text-base normal-case">
+                Interesting fact 3
+              </li>
+            </ul>
+            <a href="#" class="btn-primary mt-8">Learn more</a>
+          </div>
+          <div class="w-1/2">
+            <img src="" alt="" class="bg-text w-full h-132.5" />
+          </div>
         </div>
-        <div><img src="" alt="" /></div>
       </section>
     </main>
-    <footer>
-      <div>
-        <div>
-          <h2>Orbit & Go</h2>
-          <h3>Orbit Made Accessible</h3>
-          <a href=""><img src="/static/logo/logo-footer.png" alt="" /></a>
+    <footer class="border-t border-t-text">
+      <div class="container mx-auto py-16 flex justify-between">
+        <div class="flex flex-col gap-4">
+          <h2 class="uppercase text-3xl font-bold">Orbit & Go</h2>
+          <h3 class="uppercase text-xl font-light">Orbit Made Accessible</h3>
+          <a href="#" class="mt-4 mx-auto"
+            ><img
+              src="/static/logo/logo-footer.png"
+              alt=""
+              class="h-32 aspect-square"
+          /></a>
         </div>
-        <div>
-          <span>Menu</span>
+        <div class="flex flex-col gap-6">
+          <span class="footer-text">Menu</span>
           <nav>
-            <ul>
-              <li><a href="">Discover</a></li>
-              <li><a href="">book now</a></li>
-              <li><a href="">our team</a></li>
-              <li><a href="">the fleet</a></li>
-              <li><a href="">about</a></li>
+            <ul class="flex flex-col gap-4">
+              <li><a href="#" class="link normal-case font-normal">Discover</a></li>
+              <li><a href="#" class="link normal-case font-normal">Book now</a></li>
+              <li><a href="#" class="link normal-case font-normal">Our team</a></li>
+              <li><a href="#" class="link normal-case font-normal">The fleet</a></li>
+              <li><a href="#" class="link normal-case font-normal">About</a></li>
             </ul>
           </nav>
         </div>
-        <div>
-          <div>
-            <span>Contact</span>
-            <ul>
+        <div class="flex flex-col gap-12">
+          <div class="flex flex-col gap-6">
+            <span class="footer-text">Contact</span>
+            <ul class="flex flex-col gap-4">
               <li>
-                <i class="fa-solid fa-phone"></i
-                ><a href="tel:+12135550123">213-555-0123</a>
+                <a href="tel:+12135550123" class="flex gap-4"
+                  ><i class="fa-solid fa-phone icon-link"></i>213-555-0123</a
+                >
               </li>
               <li>
-                <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:contact@orbit-go.com">contact@orbit-go.com</a>
+                <a href="mailto:contact@orbit-go.com" class="flex gap-4"
+                  ><i class="fa-solid fa-envelope icon-link"></i
+                  >contact@orbit-go.com</a
+                >
               </li>
             </ul>
           </div>
-          <div>
-            <span>Follow us</span>
-            <ul>
+          <div class="flex flex-col gap-6">
+            <span class="footer-text">Follow us</span>
+            <ul class="flex flex-row gap-4">
               <li>
-                <i class="fa-brands fa-instagram"></i
-                ><a href="https://www.instagram.com/" target="_blank"></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram icon-link"></i
+                ></a>
               </li>
               <li>
-                <i class="fa-brands fa-linkedin"></i
-                ><a href="https://fr.linkedin.com/" target="_blank"></a>
+                <a href="https://fr.linkedin.com/" target="_blank"
+                  ><i class="fa-brands fa-linkedin icon-link"></i
+                ></a>
               </li>
               <li>
-                <i class="fa-brands fa-square-x-twitter"></i
-                ><a href="https://x.com/" target="_blank"></a>
+                <a href="https://x.com/" target="_blank"
+                  ><i class="fa-brands fa-square-x-twitter icon-link"></i
+                ></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <nav>
-        <ul>
+      <nav
+        class="bg-text text-surface h-14 flex items-center justify-center font-light"
+      >
+        <ul class="flex justify-center gap-2 items-center">
           <li>© 2026 Orbit & Go All rights reserved</li>
-          <li><a href="">Legal Notice</a></li>
-          <li><a href="">Privacy Policy</a></li>
+          <li class="w-px h-5 bg-surface"></li>
+          <li><a href="#" class="cursor-pointer">Legal Notice</a></li>
+          <li class="w-px h-5 bg-surface"></li>
+          <li><a href="#" class="cursor-pointer">Privacy Policy</a></li>
         </ul>
       </nav>
     </footer>
