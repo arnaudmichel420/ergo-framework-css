@@ -2,23 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="shortcut icon"
+      href="/logo/planet.svg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./src/style.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/thin/style.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ergo-framework-css</title>
+    <title>Orbit & Go — Space Travel Made Accessible</title>
   </head>
   <body>
     <header class="flex justify-between items-center px-8 py-4">
       <a class="w-1/3" href="./index.html"
-        ><img src="/static/logo/logo-header.png" alt=""
+        ><img src="/logo/logo-header.png" alt=""
       /></a>
       <nav class="w-1/3 flex justify-center">
         <ul class="flex gap-8">
-          <li class="header-link text-primary"><a href="#">discover</a></li>
+          <li class="header-link active"><a href="#">discover</a></li>
           <li class="header-link"><a href="#">our fleet</a></li>
           <li class="header-link"><a href="#">the team</a></li>
           <li class="header-link"><a href="#">about</a></li>
@@ -39,19 +43,21 @@
         >
           <div class="flex flex-col items-end gap-4 w-1/3">
             <h1 class="text-end text-nowrap text-8xl font-display uppercase">
-              Planet name
+              Mars
             </h1>
             <div class="h-px bg-text w-1/3"></div>
             <h2 class="text-end text-4xl font-display uppercase">
-              Planet code
+              Sol-IV · 225M km
             </h2>
           </div>
           <ul class="flex flex-col gap-6 items-start w-1/3">
-            <li class="fact-list">Interesting fact 1</li>
-            <li class="fact-list">Interesting fact 1</li>
-            <li class="fact-list">Interesting fact 1</li>
-            <li class="fact-list">Interesting fact 1</li>
-            <li class="fact-list">Interesting fact 1</li>
+            <li class="fact-list font-display">Travel time: 7 months</li>
+            <li class="fact-list font-display">Surface temp: −60 °C avg</li>
+            <li class="fact-list font-display">Gravity: 0.38 g</li>
+            <li class="fact-list font-display">2 moons: Phobos & Deimos</li>
+            <li class="fact-list font-display">
+              Olympus Mons: tallest peak in the solar system
+            </li>
           </ul>
         </div>
         <div class="flex flex-col items-center">
@@ -59,33 +65,48 @@
           <i class="ph-thin ph-caret-down text-5xl text-primary"></i>
         </div>
       </section>
-      <section class="container mx-auto gap-12">
+      <section class="container mx-auto flex flex-col gap-12">
         <h2 class="title-2">our fleet</h2>
         <div class="flex gap-16">
           <div class="flex flex-col gap-2 w-1/3">
-            <img src="" alt="" class="bg-text aspect-[calc(300/380)] w-full" />
-            <h3 class="title-3 mt-4">Rocket name</h3>
+            <img
+              src="/image/Gemini_Generated_Image_neqgo6neqgo6neqg.webp"
+              alt=""
+              class="bg-text aspect-[calc(300/380)] w-full object-cover"
+            />
+            <h3 class="title-3 mt-4">Helios I</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a
-              nulla. Id distinctio quidem alias?
+              Our flagship vessel, designed for deep-space comfort. Capacity for
+              48 passengers with private cabins, a panoramic observation deck
+              and zero-g recreation areas.
             </p>
             <a href="#" class="link">learn more</a>
           </div>
           <div class="flex flex-col gap-2 w-1/3">
-            <img src="" alt="" class="bg-text aspect-[calc(300/380)] w-full" />
-            <h3 class="title-3 mt-4">Rocket name</h3>
+            <img
+              src="/image/Gemini_Generated_Image_t7zzu7t7zzu7t7zz.webp"
+              alt=""
+              class="bg-text aspect-[calc(300/380)] w-full object-cover"
+            />
+            <h3 class="title-3 mt-4">Aether II</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a
-              nulla. Id distinctio quidem alias?
+              Built for speed without compromise. Aether II reaches Mars orbit
+              in under six months, equipped with advanced radiation shielding
+              and an onboard medical suite.
             </p>
             <a href="#" class="link">learn more</a>
           </div>
           <div class="flex flex-col gap-2 w-1/3">
-            <img src="" alt="" class="bg-text aspect-[calc(300/380)] w-full" />
-            <h3 class="title-3 mt-4">Rocket name</h3>
+            <img
+              src="/image/Gemini_Generated_Image_cdtpz8cdtpz8cdtp.webp"
+              alt=""
+              class="bg-text aspect-[calc(300/380)] w-full object-cover"
+            />
+            <h3 class="title-3 mt-4">Nova Lux</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a
-              nulla. Id distinctio quidem alias?
+              Our premium orbital shuttle, perfect for lunar excursions and ISS
+              transfers. Seats 12 passengers in first-class conditions with a
+              360° glass hull.
             </p>
             <a href="#" class="link">learn more</a>
           </div>
@@ -95,44 +116,75 @@
         <h2 class="title-2">the team</h2>
         <div class="flex gap-20">
           <div class="w-1/3">
-            <img src="" alt="" class="w-full aspect-square bg-text" />
+            <img
+              src="/image/Gemini_Generated_Image_13tjln13tjln13tj.webp"
+              alt=""
+              class="w-full aspect-square bg-text object-cover object-top"
+            />
           </div>
           <div class="flex flex-col gap-6">
-            <h3 class="text-4xl font-bold uppercase">Pilot name</h3>
-            <span class="text-xl uppercase">Pilot function</span>
+            <h3 class="text-4xl font-bold uppercase">Cmdr. Elena Voss</h3>
+            <span class="text-xl uppercase">Chief Flight Commander</span>
             <p class="w-3/4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              assumenda dolorem numquam iure sunt blanditiis, saepe
-              necessitatibus nemo enim laudantium totam fugit pariatur tenetur
-              nisi vitae, autem odit rem laboriosam.
+              With over 22 years of experience in aerospace and three missions
+              to the International Space Station, Commander Voss leads every
+              Orbit & Go expedition with unmatched precision. Her vision: making
+              space travel as safe and accessible as a transatlantic flight.
+            </p>
+            <p class="w-3/4">
+              Before joining Orbit & Go, she served as a senior test pilot for
+              ESA and contributed to the development of next-generation
+              life-support systems. A decorated engineer and a natural leader,
+              Commander Voss has trained over 60 crew members and remains the
+              most trusted name in commercial deep-space operations.
             </p>
           </div>
         </div>
         <div class="grid grid-cols-5 gap-20">
           <div class="flex flex-col gap-4">
-            <img src="" alt="" class="bg-white w-full aspect-square" />
-            <h3 class="title-3">Pilot name</h3>
-            <span>Pilot function</span>
+            <img
+              src="/image/Gemini_Generated_Image_plvs5yplvs5yplvs.webp"
+              alt=""
+              class="bg-white w-full aspect-square object-cover object-top"
+            />
+            <h3 class="title-3">Kai Oduya</h3>
+            <span>Co-Pilot</span>
           </div>
           <div class="flex flex-col gap-4">
-            <img src="" alt="" class="bg-white w-full aspect-square" />
-            <h3 class="title-3">Pilot name</h3>
-            <span>Pilot function</span>
+            <img
+              src="/image/Gemini_Generated_Image_cpbccbcpbccbcpbc.webp"
+              alt=""
+              class="bg-white w-full aspect-square object-cover object-top"
+            />
+            <h3 class="title-3">Dr. Sora Nishida</h3>
+            <span>Flight Surgeon</span>
           </div>
           <div class="flex flex-col gap-4">
-            <img src="" alt="" class="bg-white w-full aspect-square" />
-            <h3 class="title-3">Pilot name</h3>
-            <span>Pilot function</span>
+            <img
+              src="/image/Gemini_Generated_Image_yav0wmyav0wmyav0.webp"
+              alt=""
+              class="bg-white w-full aspect-square object-cover object-top"
+            />
+            <h3 class="title-3">Lucas Ferreira</h3>
+            <span>Navigation Engineer</span>
           </div>
           <div class="flex flex-col gap-4">
-            <img src="" alt="" class="bg-white w-full aspect-square" />
-            <h3 class="title-3">Pilot name</h3>
-            <span>Pilot function</span>
+            <img
+              src="/image/Gemini_Generated_Image_ub26zmub26zmub26.webp"
+              alt=""
+              class="bg-white w-full aspect-square object-cover object-top"
+            />
+            <h3 class="title-3">Amara Singh</h3>
+            <span>Systems Engineer</span>
           </div>
           <div class="flex flex-col gap-4">
-            <img src="" alt="" class="bg-white w-full aspect-square" />
-            <h3 class="title-3">Pilot name</h3>
-            <span>Pilot function</span>
+            <img
+              src="/image/Gemini_Generated_Image_su3guysu3guysu3g.webp"
+              alt=""
+              class="bg-white w-full aspect-square object-cover object-top"
+            />
+            <h3 class="title-3">Tom Beckett</h3>
+            <span>Mission Coordinator</span>
           </div>
         </div>
         <a href="#" class="btn-primary mx-auto">meet the team</a>
@@ -142,26 +194,39 @@
         <div class="flex gap-20">
           <div class="flex flex-col gap-8 w-1/2">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              dolorem, inventore ducimus doloremque harum dolores? Numquam
-              deserunt beatae totam dolore, animi dignissimos quo distinctio
-              voluptatem voluptates fuga, iste debitis voluptate.
+              Founded in 2021, Orbit & Go is the first commercial space agency
+              to offer fully certified passenger flights beyond Earth's orbit.
+              We believe the cosmos should not be reserved for astronauts alone.
+              Our mission is to open the final frontier to everyone — safely,
+              responsibly, and unforgettably.
+            </p>
+            <p>
+              Headquartered in Cape Canaveral with launch operations in Baikonur
+              and Kourou, we operate under the strictest international safety
+              standards. Each journey is meticulously planned by a team of
+              world-class engineers, physicians, and mission specialists
+              dedicated to giving you the experience of a lifetime — beyond the
+              atmosphere.
             </p>
             <ul class="flex flex-col gap-6">
               <li class="fact-list text-base normal-case">
-                Interesting fact 1
+                Over 340 passengers safely flown since 2023
               </li>
               <li class="fact-list text-base normal-case">
-                Interesting fact 2
+                3 certified deep-space vessels in active service
               </li>
               <li class="fact-list text-base normal-case">
-                Interesting fact 3
+                Destinations: Low Earth Orbit, Moon & Mars
               </li>
             </ul>
             <a href="#" class="btn-primary mt-8">Learn more</a>
           </div>
           <div class="w-1/2">
-            <img src="" alt="" class="bg-text w-full h-132.5" />
+            <img
+              src="/image/Gemini_Generated_Image_1ggrh81ggrh81ggr.webp"
+              alt=""
+              class="bg-text w-full h-132.5 object-cover"
+            />
           </div>
         </div>
       </section>
@@ -173,7 +238,7 @@
           <h3 class="uppercase text-xl font-light">Orbit Made Accessible</h3>
           <a href="#" class="mt-4 mx-auto"
             ><img
-              src="/static/logo/logo-footer.png"
+              src="/logo/logo-footer.png"
               alt=""
               class="h-32 aspect-square"
           /></a>
@@ -182,11 +247,21 @@
           <span class="footer-text">Menu</span>
           <nav>
             <ul class="flex flex-col gap-4">
-              <li><a href="#" class="link normal-case font-normal">Discover</a></li>
-              <li><a href="#" class="link normal-case font-normal">Book now</a></li>
-              <li><a href="#" class="link normal-case font-normal">Our team</a></li>
-              <li><a href="#" class="link normal-case font-normal">The fleet</a></li>
-              <li><a href="#" class="link normal-case font-normal">About</a></li>
+              <li>
+                <a href="#" class="link normal-case font-normal">Discover</a>
+              </li>
+              <li>
+                <a href="#" class="link normal-case font-normal">Book now</a>
+              </li>
+              <li>
+                <a href="#" class="link normal-case font-normal">Our team</a>
+              </li>
+              <li>
+                <a href="#" class="link normal-case font-normal">The fleet</a>
+              </li>
+              <li>
+                <a href="#" class="link normal-case font-normal">About</a>
+              </li>
             </ul>
           </nav>
         </div>
