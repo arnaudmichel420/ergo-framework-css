@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Vonca";
+  src: url("/static/font/Vonca/Vonca-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vonca";
+  src: url("/static/font/Vonca/Vonca-Semibold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vonca";
+  src: url("/static/font/Vonca/Vonca-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vonca";
+  src: url("/static/font/Vonca/Vonca-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vonca";
+  src: url("/static/font/Vonca/Vonca-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Vonca", serif;
+  --color-primary: #ff5e00;
+  --color-text: #ffffff;
+  --color-surface: #202020;
+}
+
+@layer base {
+  body,
+  html {
+    @apply bg-surface text-text font-sans;
+  }
+  a {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary px-4 py-2 rounded-sm border border-primary text-xl font-bold tracking-wide uppercase  transition-all ease-in-out duration-300 hover:bg-transparent hover:text-text hover:border-text;
+  }
+  .header-link {
+    @apply text-xl font-bold tracking-wide uppercase  transition-all ease-in-out duration-300 hover:bg-transparent hover:text-primary hover:border-text;
+  }
+
+  .fact-list {
+    @apply uppercase text-2xl relative pl-12
+    before:content-[''] before:absolute before:top-0 before:left-0  before:w-7 before:h-7 before:border-2 before:border-primary before:rounded-full after:content-[''] after:absolute after:top-2.5 after:left-2.5  after:w-2 after:h-2 after:bg-primary after:rounded-full;
+  }
+
+  .title-1 {
+  }
+  .title-2 {
+    @apply uppercase text-3xl font-bold
+  }
+  .title-3 {
+  }
+  .text-regular {
+  }
+  .text-light {
+  }
+}
